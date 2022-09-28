@@ -1,8 +1,7 @@
 # Cura PostProcessingPlugin
 # Author:   Yannick Zwijsen
-# Date:     Septermber 13, 2022
-# Based on DisplayFilenameAndLayerOnLCD by Amanda de Castilho
-# Description:  This plugin shows which layer is being printed on your 3D printer's LCD.
+# Date:     September 13, 2022
+# Description:  This plugin shows which layer is being printed on your 3D printer's LCD. (Based on DisplayFilenameAndLayerOnLCD by Amanda de Castilho)
 
 from ..Script import Script
 from UM.Application import Application
