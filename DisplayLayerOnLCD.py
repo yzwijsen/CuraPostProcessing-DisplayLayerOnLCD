@@ -48,7 +48,7 @@ class DisplayLayerOnLCD(Script):
             lines = layer.split("\n")
             for line in lines:
                 # Get layer count
-                if line.startswith(";LAYER_COUNT:"):D
+                if line.startswith(";LAYER_COUNT:"):
                     max_layer = line
                     max_layer = max_layer.split(":")[1]
                     # Decrease max layer by 1 if starting layer is set to 0
